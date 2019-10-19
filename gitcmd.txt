@@ -22,5 +22,15 @@ git remote add origin https://github.com/bhairavgit/tiwarigit.git
 git push -u origin master
 
 
+#BRANCHES
+git branch "branch name"  ----create new branch 
+git checkout "branch name"  -----checkout branch
+git merge "branch name"    ---merge new branch in master
+git branch -d "branch name"   ---delete branch from local
+git push origin --delete "branch name"  ---delete from remote
+
+
+
+
 
 
