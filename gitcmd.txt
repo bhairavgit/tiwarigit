@@ -1,0 +1,14 @@
+git --version
+gitconfig --global user.email "email"
+gitconfig -global user.name "username"
+#INITIALIZED GIT REPO IN LOCAL SYSTEM******
+#GOTO YOUR LOCAL FOLDER OF PROJECT AND RUN THESE CMD'S
+git init
+git status
+git add "file or project"
+git commit -m "added text.txt"
+#IN GIT WE CAN USE WILD CARD CHARACTER'S
+git add *.txt  ---all files with txt extension will get added
+git add *.* -----added every files in that folder
+git add .   ----every thing added
+git commit -m "added index.html | modified test.txt
