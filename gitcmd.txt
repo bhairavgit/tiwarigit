@@ -29,7 +29,26 @@ git merge "branch name"    ---merge new branch in master
 git branch -d "branch name"   ---delete branch from local
 git push origin --delete "branch name"  ---delete from remote
 
+#TAGGING IN GIT
+git tag v1.0
+git tag
+git show v1.0
+#HOW TO PUSH TAG
+git push origin tag v1.0
+git push origin --tags   ---to push all tags at once
+git push --tags
+git tag -d v1.0    --- to delete tag from local
+git push origin -d v1.0  --to delete tag from remote
+git history
+git diff 
+git 
 
+#TIME TRAVEL
+
+git reset --soft commit id
+git reset --mixed commit id
+git reset --hard commit id
+ 
 
 
 
